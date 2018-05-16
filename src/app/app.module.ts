@@ -14,7 +14,7 @@ import { AuthProvider } from '../providers/auth-provider/auth-provider';
 import { ChatsProvider } from '../providers/chats-provider/chats-provider';
 import { UserProvider } from '../providers/user-provider/user-provider';
 import { UtilProvider } from '../providers/utils';
-import { Pro } from '@ionic/pro';
+/*import { Pro } from '@ionic/pro';
 
 Pro.init('e7eea03f', {
   appVersion: '0.0.1'
@@ -40,7 +40,7 @@ export class MyErrorHandler implements ErrorHandler {
     this.ionicErrorHandler && this.ionicErrorHandler.handleError(err);
   }
 }
-
+*/
 export const firebaseConfig = {
   apiKey: "AIzaSyDwiNheARSamE4B4N-YnFc6zLLZ7xKJgjk",
   authDomain: "ionichat-914ca.firebaseapp.com",
