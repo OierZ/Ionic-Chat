@@ -19,7 +19,7 @@ export class LoginPage {
         public userProvider: UserProvider,
         public util: UtilProvider,
         public storage: Storage) {
-        Pro.monitoring.exception(new Error('errorPrueba'))
+        Pro.monitoring.exception(new Error('errorPrueba'));
     }
 
     ngOnInit() {
